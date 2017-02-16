@@ -1,0 +1,32 @@
+div.menu-container
+{
+    height: 50px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+ul.menu li {
+   float: left;
+}
+
+ul.menu li.item-left {
+    float: right;
+}
+
+ul.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
