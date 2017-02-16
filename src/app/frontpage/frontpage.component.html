@@ -3,10 +3,17 @@
     <ul class="menu">
       <li><a [routerLink]="'/page/home'">Inicio</a></li>
       <li><a [routerLink]="'/page/about'">Acerca de</a></li>
-      <li class="item-left"><a>Registrarse</a></li>
-      <li class="item-left"><a [routerLink]="'/login'">Iniciar Ses&iacute;on</a></li>
+      <li class="item-right">
+        <div class="dropdown">
+            <button class="dropbtn">Iniciar Sesi&oacute;n</button>
+            <div class="dropdown-content">
+              <a [routerLink]="'/login/candidate'">Candidato</a>
+              <a [routerLink]="'/login/company'">Empresa</a>
+            </div>
+        </div>
+      </li>
     </ul>
   </nav>
 </div>
-
+<div class="sign-up"><a>Registrarse</a></div>
 <router-outlet></router-outlet>
