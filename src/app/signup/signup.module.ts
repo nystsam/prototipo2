@@ -5,6 +5,7 @@ import { SignupComponent } from './signup.component';
 import { SignupRoutingModule } from './route-module/signup.routing.module';
 
 import { CandidateSignupComponent } from './candidate-signup/candidate-signup.component';
+import { CompanySignupComponent } from './company-signup/company-signup.component';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { CandidateSignupComponent } from './candidate-signup/candidate-signup.co
   declarations: [
     SignupComponent,
     CandidateSignupComponent,
+    CompanySignupComponent,
   ]
 })
 export class SignupModule { }
