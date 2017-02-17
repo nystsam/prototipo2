@@ -8,17 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [
-    FrontpageComponent,
-    HomeComponent,
-    AboutComponent,
-  ],
   imports: [
     CommonModule,
     FrontpageRoutingModule,
   ],
-  exports: [
-
+  declarations: [
+    FrontpageComponent,
+    HomeComponent,
+    AboutComponent,
   ],
   providers: [],
 })
